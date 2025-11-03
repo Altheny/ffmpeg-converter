@@ -32,4 +32,4 @@ Bez instalowania Pythona – wystarczy `.exe`!
 pip install pyinstaller
 pyinstaller --onefile --noconsole ffmpeg_gui.pyw
 
-> Autor: Altheny C.&.E in cooperation with artificial intelligence
+## Autor: Altheny C.&.E in cooperation with artificial intelligence
