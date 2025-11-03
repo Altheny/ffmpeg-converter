@@ -30,10 +30,8 @@ Bez instalowania Pythona – wystarczy `.exe`!
 ## Budowanie .exe
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole ffmpeg_gui.pyw```
-
-
-
+pyinstaller --onefile --noconsole ffmpeg_gui.pyw
+```
 
 ## Autor:
 >  Altheny C.&.E in cooperation with artificial intelligence
