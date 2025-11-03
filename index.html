@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFmpeg Converter v0.2.0 – Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f0f0f0; color: #333; line-height: 1.6; }
+        h1 { color: #4caf50; text-align: center; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin: 15px 0; }
+        a { color: #4caf50; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 20px; }
+        li { margin: 8px 0; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FFmpeg Converter v0.2.0</h1>
+        <p><strong>Prosty konwerter wideo/audio z GUI w Pythonie.</strong> Działa na Windows bez instalowania Pythona – pobierz <code>.exe</code> i używaj od razu!</p>
+
+        <h2>Funkcje</h2>
+        <ul>
+            <li>Konwersja do <strong>H.265</strong> (CRF 19–33)</li>
+            <li>Skalowanie: 4K, Full HD, HD, SD, Mobile, 50%, 25%</li>
+            <li>Ekstrakcja <strong>MP3</strong> (128 kbps)</li>
+            <li><strong>Tray icon</strong> – minimalizuje do paska</li>
+            <li>Paski postępu (plik + całość)</li>
+            <li>Tryby z opisami (bez „+”)</li>
+        </ul>
+
+        <h2>Jak to wygląda?</h2>
+        <!--<p><em>(Zrób zrzut ekranu z programu i nazwij <code>screenshot.png</code> – wrzuć do folderu)</em></p>-->
+        <img src="screenshot.png" alt="Screenshot GUI" />
+
+        <h2>Pobierz</h2>
+        <p>
+            <a href="ffmpeg_gui.exe" download>📥 Pobierz .exe (v0.2.0)</a><br>
+            <em>(Wrzuć plik .exe do folderu – zbuduj przez PyInstaller)</em>
+        </p>
+
+        <h2>Źródła</h2>
+        <p>
+            <a href="ffmpeg_gui.pyw">Kod źródłowy (.pyw)</a> | 
+            <a href="https://github.com/Altheny/ffmpeg-converter">GitHub</a>
+        </p>
+
+        <div class="footer">
+            Autor: Altheny | 2025 | Licencja: MIT
+        </div>
+    </div>
+</body>
+</html>
